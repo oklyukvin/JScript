@@ -1,0 +1,60 @@
+*  {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bigPic-block {
+    width: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.instruction {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.flex-block {
+    width: 3500;
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture {
+    border: 1px solid #000;
+}
+
+.preview {
+    width: 700;
+    height: 700px;
+    border: 1px solid blue;
+    margin: 5px 45px 10px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    border: 1px solid blue;
+    margin: 30px 45px 10px 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sliderFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 50px;
+    height: 20px;
+    align-self: auto;
+    margin: 0 50px;
+    align-self: center;
+}
